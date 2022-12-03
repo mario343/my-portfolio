@@ -1,5 +1,5 @@
 import { type ThemeConfig, extendTheme } from "@chakra-ui/react";
-
+import { Global } from "@emotion/react";
 import { Button } from "./components/button";
 import { Input } from "./components/input";
 
@@ -15,6 +15,11 @@ const config: ThemeConfig = {
 
 export const theme = extendTheme({
   config,
+  fonts: {
+    heading: `'Heading Font Name', sans-serif`,
+    body: `'Body Font Name', sans-serif`,
+  },
+
   components: {
     Button,
     Input,
