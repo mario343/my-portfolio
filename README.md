@@ -13,6 +13,6 @@ to the animations
 
 however, as it is an uni project
 that was made only in one weekend
-i hope you'll like it!
+it's not that bad i guess
 
 ## -----------------------------
