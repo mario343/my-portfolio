@@ -1,14 +1,15 @@
+import "@fontsource/mukta/400.css";
+import "@fontsource/mukta/800.css";
+import "@fontsource/open-sans/700.css";
 import type { AppProps } from "next/app";
 
 import * as React from "react";
-import { theme } from "../providers/ui/theme";
+import theme from "../providers/ui/theme";
 import { ChakraProvider } from "@chakra-ui/react";
-import Fonts from "../providers/ui/components/fonts";
 
 function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
-      <Fonts />
       <Component {...pageProps} />
     </ChakraProvider>
   );

@@ -33,7 +33,7 @@ const MoreModal = () => {
         onMouseOver={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
-        <Text fontSize="22px">
+        <Text fontSize={[22, 22, 32, 32, 32, 32]}>
           {hover ? (
             <Flex>
               <Text color="#c43a1d">►</Text> MORE
@@ -50,7 +50,7 @@ const MoreModal = () => {
         isCentered
       >
         <ModalOverlay />
-        <ModalContent bg="#ffe8c6">
+        <ModalContent bg="#ffe8c6" width="90%">
           <ModalHeader>More</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6} textAlign="justify" mx="5px">

@@ -10,6 +10,8 @@ specifiers:
   '@chakra-ui/system': ^2.3.4
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
+  '@fontsource/mukta': ^4.5.10
+  '@fontsource/open-sans': ^4.5.13
   '@fortawesome/fontawesome-svg-core': ^6.2.1
   '@fortawesome/free-brands-svg-icons': ^6.2.1
   '@fortawesome/free-regular-svg-icons': ^6.2.1
@@ -40,6 +42,8 @@ dependencies:
   '@chakra-ui/system': 2.3.4_dovxhg2tvkkxkdnqyoum6wzcxm
   '@emotion/react': 11.10.5_5ihuxrpe4zse4p4tf6ubxcyzuu
   '@emotion/styled': 11.10.5_z7x6wqqd37fzu777gq3gq2bxru
+  '@fontsource/mukta': 4.5.10
+  '@fontsource/open-sans': 4.5.13
   '@fortawesome/fontawesome-svg-core': 6.2.1
   '@fortawesome/free-brands-svg-icons': 6.2.1
   '@fortawesome/free-regular-svg-icons': 6.2.1
@@ -1683,6 +1687,14 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@fontsource/mukta/4.5.10:
+    resolution: {integrity: sha512-tmGW61Bq66WQHuRHTWSsWFYHNyiHo3nkA68Fvo2gB9InrVy7/i6sVPIhnurI0KtCOPpSj21kycU+CyxjlQMEQg==}
+    dev: false
+
+  /@fontsource/open-sans/4.5.13:
+    resolution: {integrity: sha512-/UzqP7ZFk145XAq8KG4pvFPP7UQhtreDGXgqXZjagCDreKxcrhwn/x7DYz9rPcycWkLUVApIybcoczGZiM0cRg==}
     dev: false
 
   /@fortawesome/fontawesome-common-types/6.2.1:

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import {
+  Box,
   Button,
   color,
   Flex,
@@ -30,7 +31,13 @@ export default function Home() {
   const [hoverLinkedin, setHoverLinkedin] = useState(false);
   const [hoverInbox, setHoverInbox] = useState(false);
   return (
-    <Stack bg="#0063bd" w="100%" h="100vh" justify="space-between">
+    <Stack
+      bg="#0063bd"
+      w="100%"
+      h="100vh"
+      justify="flex-end"
+      //  flexDir={["column", "column", "column", "column", "column", "column"]}
+    >
       <Flex
         color="white"
         fontSize="32px"
@@ -38,6 +45,7 @@ export default function Home() {
         h="200px"
         mt="50px"
         fontWeight="800"
+        display={["none", "none", "none", "flex", "flex", "flex"]}
       >
         <Stack spacing={-3} fontStyle="italic">
           <Text>Hello</Text>
@@ -69,7 +77,14 @@ export default function Home() {
           </Text>
         </Stack>
       </Flex>
-      <Flex w="500px" justify="space-between" alignSelf="center">
+      <Flex
+        pt={[150, 150, 100, 150, 0, 0]}
+        w={[300, 300, 500, 500, 500, 500]}
+        justify="space-between"
+        alignSelf="center"
+        flexDir={["column", "column", "row", "row", "row", "row"]}
+        align="center"
+      >
         <Tooltip label="about me">
           <Link href="/about-me">
             <Button
@@ -114,12 +129,35 @@ export default function Home() {
         </Tooltip>
       </Flex>
 
-      <Flex w="100%" h="525px" align="flex-end">
-        <Image src={Mario} alt="mario" />
-        <Stack align="flex-end" color="white">
-          <Stack mr="25px" w="130px">
-            <Text fontSize="25px"></Text>
-            <Flex fontSize="32px" justify="space-between">
+      <Flex w="100%" h="575px" align="flex-end">
+        <Flex display={["none", "none", "none", "none", "none", "flex"]}>
+          <Image src={Mario} alt="mario" />
+        </Flex>
+        <Stack
+          align="flex-end"
+          color="white"
+          justify="center"
+          w={["100%", "100%", "100%", "100%", "100%", "auto"]}
+        >
+          <Stack
+            mr="25px"
+            w="130px"
+            justifySelf="center"
+            alignSelf={[
+              "center",
+              "center",
+              "center",
+              "center",
+              "center",
+              "flex-end",
+            ]}
+          >
+            <Flex
+              fontSize="32px"
+              justify="space-between"
+              w="100%"
+              alignSelf="center"
+            >
               <Link
                 href="https://github.com/mario343"
                 isExternal
@@ -177,7 +215,10 @@ export default function Home() {
               </Link>
             </Flex>
           </Stack>
-          <Flex h="75px">
+          <Flex
+            display={["none", "none", "none", "none", "none", "flex"]}
+            bg="blue"
+          >
             <Image src={Grass} alt="grass" />
           </Flex>
         </Stack>

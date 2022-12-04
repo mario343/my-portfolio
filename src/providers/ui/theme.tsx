@@ -13,11 +13,11 @@ const config: ThemeConfig = {
 //   heading: `'Geomanist', sans-serif`,
 // };
 
-export const theme = extendTheme({
+const theme = extendTheme({
   config,
   fonts: {
-    heading: `'Heading Font Name', sans-serif`,
-    body: `'Body Font Name', sans-serif`,
+    heading: `'Mukta', sans-serif`,
+    body: `'Mukta', sans-serif`,
   },
 
   components: {
@@ -25,3 +25,5 @@ export const theme = extendTheme({
     Input,
   },
 });
+
+export default theme;

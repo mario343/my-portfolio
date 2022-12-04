@@ -1,5 +1,18 @@
-## Getting Started
+## -----------------------------
 
-this is going to be mario's portfolio
+## mario's portfolio
 
-## you'll see sth more of it very soooooon!
+it's not a beauty,
+many many maaany components
+need to be refactorized
+and made from scratch again
+especially when it comes
+to the animations
+
+## -----------------------------
+
+however, as it is an uni project
+that was made only in one weekend
+i hope you'll like it!
+
+## -----------------------------

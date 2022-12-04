@@ -28,7 +28,7 @@ export default function AboutMe() {
       h="100vh"
       align="center"
       justify="center"
-      fontSize="22px"
+      fontSize={[22, 22, 32, 32, 32, 32]}
       style={{
         backgroundImage: `url("https://images7.alphacoders.com/333/333223.jpg")`,
         backgroundPosition: "center",
@@ -36,7 +36,12 @@ export default function AboutMe() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <Stack mt="300px" align="center" spacing={7} fontWeight="800">
+      <Stack
+        mt={[50, 50, 50, 100, 150, 250]}
+        align="center"
+        spacing={[3, 3, 3, 7, 7, 7]}
+        fontWeight="800"
+      >
         <GeneralModal />
         <MoreModal />
 
