@@ -14,3 +14,11 @@ follow instructions given below
 How to run this app
 
 clone this repository
+
+open it in any IDE
+
+open terminal and run "pnpm i" to install all dependencies
+
+run pnpm dev to create local server
+
+open localhost:3000 on your browser
