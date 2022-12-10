@@ -4,8 +4,13 @@
 
 ## -----------------------------
 
-as it is an uni project
-that was made only in one weekend,
-it's not that bad i guess
+it's a uni projects for web dev Techniques course
+
+it's not deployed yet, so in case you want to run it
+follow instructions given below
 
 ## -----------------------------
+
+How to run this app
+
+clone this repository

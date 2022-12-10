@@ -9,7 +9,7 @@ export default function FourOhFour() {
   return (
     <Stack w="100%" h="100vh" align="center" justify="center" fontSize="22px">
       <Box w="300px" h="300px">
-        <Image src={Mario} alt="mario" />
+        <Image src={Mario} alt="mariodyin'" />
       </Box>
       <Text>Sorry but this site does not exist.</Text>
       <Text>

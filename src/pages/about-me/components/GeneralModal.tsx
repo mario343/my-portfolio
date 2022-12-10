@@ -2,7 +2,6 @@
 import {
   Button,
   Flex,
-  Link,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -10,15 +9,10 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-  Stack,
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
 import { useState } from "react";
-
-const Arrow = () => {
-  return <Text color="red">►</Text>;
-};
 
 const GeneralModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -33,7 +27,6 @@ const GeneralModal = () => {
           background: "none",
         }}
         onClick={onOpen}
-        // _hover={{ textDecoration: "underline" }}
         onMouseOver={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >

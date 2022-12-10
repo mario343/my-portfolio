@@ -1,8 +1,8 @@
-import { Box, Flex, Link, Stack, Text, Tooltip } from "@chakra-ui/react";
+import { Box, Link, Stack, Text, Tooltip } from "@chakra-ui/react";
 import Image from "next/image";
 import Mario from "../../assets/smb3mario.gif";
 
-export default function ToBeAdded() {
+export default function Future() {
   return (
     <Stack
       w="100%"
@@ -17,7 +17,7 @@ export default function ToBeAdded() {
       <Tooltip label="Click here to get back to home page">
         <Box w="83px" h="83px">
           <Link href="/">
-            <Image src={Mario} alt="sonic" />
+            <Image src={Mario} alt="mariowalkin'" />
           </Link>
         </Box>
       </Tooltip>
